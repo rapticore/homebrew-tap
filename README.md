@@ -1,18 +1,31 @@
 # Rapticore Tap
 
-## How do I install these formulae?
+## Available Formulae
 
-`brew install rapticore/tap/<formula>`
+- `orewatch`
 
-Or `brew tap rapticore/tap` and then `brew install <formula>`.
+## Install
+
+```bash
+brew install rapticore/tap/orewatch
+```
+
+Or:
+
+```bash
+brew tap rapticore/tap
+brew install orewatch
+```
 
 Or, in a `brew bundle` `Brewfile`:
 
 ```ruby
 tap "rapticore/tap"
-brew "<formula>"
+brew "orewatch"
 ```
 
-## Documentation
+## Notes
 
-`brew help`, `man brew` or check [Homebrew's documentation](https://docs.brew.sh).
+- The formula installs the core `orewatch` CLI from the published PyPI source release.
+- The optional macOS `mac-menubar` extra is not bundled into the tap formula.
+- After install, initialize the monitor with `orewatch monitor quickstart /path/to/project --client <client>`.
