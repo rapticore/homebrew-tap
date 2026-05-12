@@ -3,8 +3,8 @@ class Orewatch < Formula
 
   desc "Multi-ecosystem malicious package detection and supply chain scanner"
   homepage "https://github.com/rapticore/ore-mal-pkg-inspector"
-  url "https://files.pythonhosted.org/packages/95/47/b54ad7ad575758365715f67a7c3bcfbc95baebf7b303eac2b979f84f5b34/orewatch-1.2.4.tar.gz"
-  sha256 "d8362bb5695c859518c40bd58139d4caee8a62b9a56430c7a6c89ff2ef3914b1"
+  url "https://files.pythonhosted.org/packages/24/d5/28ceed3980601afc6d8b49e4dc9281decf79f316ad07d292823e823b9b20/orewatch-1.2.5.tar.gz"
+  sha256 "a09336bfe6a7567f75b115b37bf38a1ff657a2ea9e564aceabf584999c930ef3"
   license "MIT"
 
   depends_on "libyaml"
